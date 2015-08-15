@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+
+.ui-result-wrapper {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ui-column-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.ui-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1em;
+}
+
+.ui-card {
+  display: flex;
+  background: #CCC;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.ui-controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/*
+  Animações
+*/
+body .ui-card {
+  opacity: 0;
+}
+
+body .ui-card-enter {
+  -webkit-animation: ui-card-enter .3s linear forwards;
+}
+
+@-webkit-keyframes ui-card-enter {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

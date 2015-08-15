@@ -1,0 +1,21 @@
+{
+  "name": "truque-carta",
+  "version": "0.0.0",
+  "authors": [
+    "Felquis Gimenes <frgformenton@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.8.0"
+  }
+}

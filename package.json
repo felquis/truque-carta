@@ -1,0 +1,14 @@
+{
+  "name": "truque-carta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server -o"
+  },
+  "author": "Felquis Gimenes",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.8.0"
+  }
+}
